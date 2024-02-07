@@ -1,0 +1,25 @@
+ 
+ body {
+    border-style: double;
+ }
+h1 {
+    color: azure;
+}
+h2 { color: deeppink;
+padding: 5px;}
+h3 {
+    color: aliceblue;
+}
+p {
+    color: azure;
+}
+
+nav {
+    background-color: deeppink;
+    height: 20px;
+}
+
+li { 
+    display: inline-block;
+    padding: 5px;
+}
