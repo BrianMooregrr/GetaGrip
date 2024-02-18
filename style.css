@@ -1,25 +1,29 @@
- 
- body {
-    border-style: double;
- }
-h1 {
-    color: azure;
+* {
+    box-sizing: border-box;
 }
-h2 { color: deeppink;
-padding: 5px;}
-h3 {
-    color: hwba(208 94% 0% 50%);
+html {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
 }
-p {
-    color: azure;
+header {
+    background-color: deeppink;
+    display: inline-block;
+    margin: auto;
+    padding: 0%;
+}
+body {
+    background-color: hotpink;
+    text-align: center;
+    margin: 0%;
 }
 
 nav {
-    background-color: deeppink;
-    height: 20px;
+    background-color: rgb(255, 138, 197)
 }
-
-li { 
+nav li {
     display: inline-block;
-    padding: 5px;
+    font-size: 20px;
+    padding: 20px;
+    color: deeppink;
 }
